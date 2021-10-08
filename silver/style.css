@@ -1,0 +1,767 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+    font-family: IRANSans Bold;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+body{
+    font-family: IRANSans;
+    
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+.menu-top .search .input-group{
+    margin-top: 50xp;
+
+}
+
+.menu-top {
+    width: 100%;
+}
+
+.input-group {
+    width: 80%;
+    padding: 0px;
+    height: 50px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border: 1px solid #f5f5f5;
+    ;
+
+}
+.menu-top .search .glyphicon{
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    text-align: right;
+    background-color: #f5f5f5;
+    height: 40px;
+    border:0px solid #f5f5f5 ;
+
+}
+.menu-top .search input{
+font-family: IRANSans;
+font-weight: 400;
+font-size: 14px;
+color: #444;
+text-align: right;
+background-color: #f5f5f5;
+height: 50px;
+border:0px solid #f5f5f5 ;
+
+}
+
+.register{
+position: relative;
+float: left;
+margin-top: 20px;
+padding-right: 190px;
+padding-left: 5px;
+}
+
+.register button{
+    border: 0px solid #fff;
+    font-family: IRANSans;
+    font-weight: 400;
+}
+
+.register .glyphicon{
+    padding-right: 15px;
+    color: #000;
+    font-size: 20px;
+}
+.menu-top .search input::placeholder { 
+    color: #444;
+  }
+
+.brand
+{
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+nav,.navbar
+{
+    font-weight: bold;
+    color:#000;
+    background-color: #fff;
+    border: 0px solid #fff;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+.navbar
+{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: IRANSans;
+    font-size: 16px;
+    color:#000;
+    background-color: #fff;
+    border: 0px solid #fff;
+}
+
+.nav li .left{
+    margin-right: 340px;    
+}
+
+.main{
+    width: 100%;
+}
+
+.main .back{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: #f5f5f5;
+    margin:auto; 
+    padding-top: 50px;
+}
+.carousel-example-generic{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.category .list{
+
+    position: relative;
+    float: left;
+    padding: .5em;
+    text-align: center;
+    font-family: inherit;
+    color: #707070;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.category .list p{
+
+    margin-top: 15px;
+    text-align: center;  
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 34px;
+}
+
+.introduce{
+    text-align: center;
+    margin-top: 60px;
+}
+.introduce p{
+    font-family: IRANSans;
+    width: 75%;
+    font-weight: 400;
+    font-size: 1em;
+    color: #444;
+    text-align: justify;
+    margin:  auto;
+    margin-bottom: 45px;
+    margin-top: 55px;
+}
+.introduce h2{
+    color: #999;
+
+}
+
+
+
+.introduce .btn-group button{
+    margin-top: 15px;
+    font-family: IRANSans;
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    width: 152px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 5px 4px 9.5px -4px #6e6d6dfc;
+
+}
+
+.introduce .btn-group button:hover ,.introduce .btn-group button:focus {
+    margin-top: 15px;
+    font-family: IRANSans;
+    font-weight: 400;
+    background-color: #000;
+    color: #fff;
+    width: 152px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 5px 4px 9.5px -4px #6e6d6dfc;
+
+}
+
+
+.intro{
+margin-top: 75px;
+font-family: IRANSans;
+margin-bottom: 75px;
+
+}
+.intro p{
+    font-family: IRANSans;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.intro h2{
+    font-family: IRANSans;
+    color: #666;
+    text-align: center;
+}
+
+.image1,.image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image1{
+    width: 385px;
+    height: 268px;
+    margin-right: auto;
+    position: relative;
+    z-index: 999;
+}
+.image2{
+    width: 316px;
+    height: 395px;
+    position: relative;
+    z-index: 99;
+    margin-right: 10px;
+    margin-top: -162px;
+}
+
+.product{
+    background-color: #fff6f6;
+    margin-top: 0px;
+    padding-bottom: 95px;
+    padding-top: 50px;
+    font-family: IRANSans;
+
+}
+.product .panel{
+    height: 400px;
+}
+.product .panel-heading{
+    text-align: center;
+}
+
+
+.porforosh .panel{
+    height: 385px;
+    }
+
+.product .panel-heading{
+    text-align: center;
+}
+    
+.product .panel-body a{
+    text-decoration: none;
+    color: #707070;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    height: 38px;
+}
+    
+.product .panel-body{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    height: 38px;
+}
+.product  .panel-body p{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: IRANSans;
+    font-weight: 400;
+    color: #707070;
+    height: 24px;
+}
+
+.newproduct{
+    font-family: IRANSans;
+    font-weight: 700;
+    font-size: 18px;
+    margin:5px;
+    padding:0px;
+    margin-right: 90px;
+    padding-bottom: 35px;
+}
+.ALLproduct , .ALLproduct:hover{
+    font-family: IRANSans;
+    font-weight: 700;
+    font-size: 18px;
+    margin:5px;
+    padding:10px;
+    color:#000;
+    text-decoration: none;
+}
+.col-md-3 .panel{
+    box-shadow: 5px 5px 2px #dbdbdb;
+
+}
+
+
+.col-md-6 .panel{
+    border: 1px solid #bababa;
+    margin:0px;
+    padding: 0px;   
+    width: 50%; 
+    position: relative;
+    float: left;
+    border-radius: 0;
+}
+.porforosh,.ptitle{
+    margin-top: 50px;
+    font-family: IRANSans;
+
+}
+.porforosh .col-md-6{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin:0px;
+}
+
+.porforosh .panel{
+height: 385px;
+}
+.porforosh .panel-heading{
+    text-align: center;
+}
+
+.porforosh  .panel-body a{
+    text-decoration: none;
+    color: #707070;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    height: 38px;
+}
+
+.porforosh  .panel-body{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    height: 38px;
+}
+.porforosh  .panel-body p{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: IRANSans;
+    font-weight: 400;
+    color: #707070;
+    height: 24px;
+}
+
+#chap{
+    position: relative;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+
+}
+#rast{
+    position: relative;
+    float: right;
+    margin: 0px;
+    margin-right: 80px;
+}
+
+.appbrand{
+    margin-top: 90px;
+}
+.app{
+    font-family: IRANSans;
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+    margin:  auto;
+    margin-bottom: 45px;
+}
+.app h4{
+width: 37%;
+padding: 15px;
+margin: auto;
+}
+
+.app button , .app button .glyphicon{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    margin: auto;
+
+}
+
+.app button:hover , .app button .glyphicon:hover{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    margin: auto;
+
+}
+
+.footer{
+    background-color: #383c3b;
+    padding: 40px;
+    width: 100%;
+}
+.footer p{
+    color:#fff;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: right;
+    line-height: 34px;
+}
+
+.footer a p,.footer p{
+    text-align: center;  
+    margin: auto;  
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: right;
+    line-height: 34px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+    padding-bottom: 15px;
+    text-decoration: none
+}
+
+.footer li{
+    list-style: none;
+    text-align: center;
+    text-align: -webkit-match-parent;
+    margin-right: 110px;
+}
+.footer a{
+    text-decoration:none ;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center;
+}
+.bfooter{
+    background-color: #2d302f;
+    width: 100%;
+    height: 56px;
+}
+.bfooter p{
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center;
+    padding-top: 18px;
+}
+.bfooter a{
+    text-decoration:none ;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center;
+}
+.bfooter u{
+    text-decoration:underline ;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center;
+}
+
+.three{
+    width: 28.5%;
+}
+.one{
+    width: 28.5%;
+    margin-right: 60px;
+}
+
+#digital{
+    position: relative;
+    float: left;
+    
+}
+#samt{
+    position: relative;
+    float: right;
+}
+
+
+
+/*                                          -
+                                            -
+                                            -
+
+*/
+
+.banner {
+    width: 100%;
+}
+
+.banner h1
+{
+    font-family: IRANSans;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    color: #fff;
+}
+
+.banner img
+{   width: 100%;
+    background-color:#3b3a3a54;
+    filter: brightness(65%);
+    padding: 0px;
+    margin-top: 5px;
+}
+
+
+.header{
+    width:100%;
+    border-bottom: 1px solid #000;
+}
+.secondary-header ul{
+    list-style: none;
+    margin-left: 200px;
+    float: left;
+    padding-top: 20px;
+    font-family: IRANSans;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+.secondary-header li{
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+    font-family: IRANSans;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+.time-header p{
+    width: 100%;
+    font-family: IRANSans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 20px;
+    text-align: center;
+}
+.time-header .glyphicon
+{
+    font-size: 20px;
+    color: #999;
+
+}
+
+.secondary-header li a,.secondary-header li a:hover{
+    text-decoration: none;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+}
+
+
+.product-forosh{
+
+    background-color: #fff6f6;
+    padding-top: 30px;
+
+    padding-bottom: 80px;
+    font-family: IRANSans;
+
+}
+
+.fcategory{
+    margin: auto;
+}
+.fcategory h2{
+    color: #000;
+    display: inline-block;
+    font-family: IRANSans;
+    font-weight: 700;
+    font-size: 20px;}
+
+.dastebandi{
+    position: relative;
+    padding-right: 40px;
+    padding-left: 25px;
+    height: 191px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    background-color: #fff;
+    box-shadow: 0 3px 5.5px -4px #000000fc;
+
+}
+
+.dastebandi img{
+    float: left;
+}
+
+.dastebandi h2{
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+.dastebandi h2:hover{
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+}
+
+.dastebandi li ,.dastebandi li a{
+    text-decoration: none;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    font-size: 16px;
+    color: #707070;
+    list-style: none;
+    margin: 0px;
+    margin-top:8px;
+    padding: 0px;
+}
+
+.dastebandi li:hover ,.dastebandi li a:hover{
+    text-decoration: none;
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1em;
+    font-size: 16px;
+    color: #000;
+    list-style: none;
+    padding-right: 3px;
+    transition:  0.35s;
+
+}
+
+.dastebandi ul,.dastebandi a {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.app h2{
+    font-size: 2em;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: .25em;
+}
+
+.app h4{
+    width: 40%;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 1.5em;
+
+}
+.app button,.app button:hover{
+    margin-right: 30px;
+    width: 15%;
+}
+/*                                          -
+                                            -
+                                            -
+
+*/
+
+.about{
+    font-family: IRANSans;
+    font-weight: 400;
+    position: relative;
+    z-index: 2;
+    margin-top: -6.5em;
+    margin-bottom: 3em;
+    background-color: #fff;
+    min-height: 300px;
+    padding: 50px 48px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0 2px 1px -1px #0003, 0 1px 1px 0 #00000024, 0 1px 3px 0 #0000001f;
+    -webkit-box-shadow: 0 2px 1px -1px #0003, 0 1px 1px 0 #00000024, 0 1px 3px 0 #0000001f;
+}
+
+.about p{
+    font-family: IRANSans;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 28px;
+    color: #2e2e2e;
+}
+
+/*
+
+            -
+            -
+            -
+*/
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
